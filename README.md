@@ -38,9 +38,6 @@ The project is structured into individual functions separating each stage of con
 - [X] Implement reverse conversion (Base-N to Base 10).
 - [X] Add support for direct Base-A to Base-B conversion
 - [ ] Add input validation to ensure number / string characters match the original base domain.
-- [ ] Support floating-point and negative numbers.
+- [X] Support negative numbers.
+- [ ] Support floating-point.
 - [ ] Build a Command-Line Interface (CLI) for interactive terminal user input.
-
-## 🚀 How to Run
-**Execute conversion via main module:**
-   BaseXToBaseY.py
