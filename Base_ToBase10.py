@@ -1,8 +1,9 @@
 def Base_ToBase10(num, originalBase):
+    import string
     if num == 0: return "0"
     if originalBase < 2 or originalBase > 36: return "2 <= base <= 36."
 
-    chars = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    chars = string.digits + string.ascii_uppercase
     convertedNum = 0
     num = num[::-1]
     for i in range(len(num)):
