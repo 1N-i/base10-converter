@@ -6,4 +6,4 @@ def BaseXToBaseY(num, originalBase, destinedBase):
     return num
 
 if __name__ == "__main__":
-    print(BaseXToBaseY("1111011", 2, 16)) #"num", originalBase, destinedBase
+    print(BaseXToBaseY("-1111011", 2, 16)) #"num", originalBase, destinedBase
